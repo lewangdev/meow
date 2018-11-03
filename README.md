@@ -8,14 +8,14 @@
 
 ### 长期分支(稳定分支)
 
-* master
+* maxter
 
 ### 临时分支
 
-* feature/\*
-* bugfix/\*
-* hotfix/\*
-* release/\*
+* feature/\* 星号表示issue的编号
+* bugfix/\* 星号表示issue的编号
+* hotfix/\* 星号表示issue的编号
+* release/\* 星号表示milestone的标题
 
 ### 分支规范
 
