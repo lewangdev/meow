@@ -14,10 +14,8 @@ Docker 容器和文件夹很类似，一个Docker容器包含了所有的某个�
    　
    　
    　
-     图1.传统的虚拟机的应用是构建在GuestOs的基础上
-   　
-   图2.容器技术的app直接建立在dockerEngine的基础上
-   	传统虚拟机技术是虚拟出一套硬件后，在其上运行一个完整操作系统，在该系统上再运行所需应用进程；而容器内的应用进程直接运行于宿主的内核，容器内没有自己的内核，而且也没有进行硬件虚拟。因此容器要比传统虚拟机更为轻便因而存在安全问题。
+    
+传统虚拟机技术是虚拟出一套硬件后，在其上运行一个完整操作系统，在该系统上再运行所需应用进程；而容器内的应用进程直接运行于宿主的内核，容器内没有自己的内核，而且也没有进行硬件虚拟。因此容器要比传统虚拟机更为轻便因而存在安全问题。
 
 ## 2．Docker基本操作指令(万能的docker --help)
 ## 2.1 安装docker
@@ -48,7 +46,7 @@ Docker 容器和文件夹很类似，一个Docker容器包含了所有的某个�
 
 ## 　  2.2 运行docker（以centos7为例）
 
-　　启动docker：sudo systemctl start docker   //需要管理员权限
+    启动docker：sudo systemctl start docker        //需要管理员权限
 
 ##     2.3 基本指令
 
@@ -118,9 +116,9 @@ docker restart :重启容器
 
 　　　　docker image pull [OPTIONS ] NAME[:TAG]：从仓库拉取镜像文件
 
-　　　　docker image save[OPTION ] IMAGE [ image…..]:将镜像保存，默认是到标准输出设备，-o 写入文件中去
+　　　　docker image save[OPTION ] IMAGE [image]:将镜像保存，默认是到标准输出设备，-o 写入文件中去
 
-　　　　docker image push  [OPTION]  IMAGE[:TAGE]:讲一个镜像推送到仓库
+　　　　docker image push  [OPTION]  IMAGE[:TAGE]:将一个镜像推送到仓库
 
 　　　　docker image tag SOURCE_IMAGE[:TAGE]  TARGET_IMAGE[:TAG]:创建一个TARGET_IMAGE指向SOURCE_IMAGE
 
