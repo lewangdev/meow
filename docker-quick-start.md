@@ -44,13 +44,13 @@ Docker 容器和文件夹很类似，一个Docker容器包含了所有的某个�
 
 目前只有在centos7上安装过docker,ubuntu的[帮助文档](http://www.runoob.com/docker/ubuntu-docker-install.html)中 介绍了不同的版本的Ubuntu的docker安装的详细步骤。
 
-## 　  2.2 运行docker（以centos7为例）
+## 2.2 运行docker（以centos7为例）
 
     启动docker：sudo systemctl start docker        //需要管理员权限
 
-##     2.3 基本指令
+##  2.3 基本指令
 
-###  	2.3.1.docker build：
+###  2.3.1.docker build：
 docker build 命令用于使用 Dockerfile 创建镜像，语法为 docker build [OPTIONS] PATH | URL |  常用的OPTIONS为-t 表示指定镜像的名字以及标签（版本相关的标记）PATH为本地的dockerfile路径，URL为远程的。实际在安装某个image之前需要去docker hub这个中心仓库查询相关镜像。指令为 docker search 镜像名，如docker search mysql(可能需要ROOT权限) ,会得到所有的mysql相关的镜像文件列表。例如通过dockerfile来构建mysql的镜像（[完整版本](https://github.com/docker-library/mysql/blob/master/5.7/Dockerfile)）
 
     FROM centos:7
@@ -76,13 +76,13 @@ docker build 命令用于使用 Dockerfile 创建镜像，语法为 docker buil
 
 	
 
-### 　　2.3.2 docker images :
+###　2.3.2 docker images :
 查看本地的所有镜像。完整的语法为docker images [OPTIONS]  常用的参数 –q 只显示镜像id，-f 筛选镜像显示。
 
-### 　　2.3.3 docker rmi :
+### 2.3.3 docker rmi :
 删除本地一个或多少镜像,完整语法docker rmi [OPTIONS] IMAGE [IMAGE...]    OPTION常用 –f 强力删除，可接受多个image一次删除。
 
-### 　　2.3.4 docker  run:
+### 2.3.4 docker  run:
 创建一个新的容器并运行一个命令,完整语法docker run [OPTIONS] IMAGE COMMAND   常用的OPTION   –itd  -d: 后台运行容器，并返回容器ID；-i: 以交互模式运行容器，通常与 -t 同时使用；-t: 为容器重新分配一个伪输入终端.不同的应用在运行的时候需要指定不同的参数，具体情况需要具体去查询。（例如利用docker启动kafka）
 
     docker run -d --name kafka --publish 9082:9092 \ -d指定运行方式为后台运行 –publish是指定端口映射--     --link zookeeper:zookeeper \  --link 是指定将kafka链接到zookeeper容器
@@ -103,7 +103,7 @@ docker build 命令用于使用 Dockerfile 创建镜像，语法为 docker buil
     
     　　wurstmeister/kafka
 
-### 　　2.3.5 容器关闭，重启，启动指令:
+### 2.3.5 容器关闭，重启，启动指令:
 docker start :启动一个或多个已经被停止的容器
 
 docker stop :停止一个运行中的容器 
@@ -112,7 +112,7 @@ docker restart :重启容器
 
 三者语法结构类似docker start /stop/restart   [OPTIONS] CONTAINER [CONTAINER...]
 
-### 　　2.3.6 docker image *
+### 2.3.6 docker image *
 
 　　　　docker image pull [OPTIONS ] NAME[:TAG]：从仓库拉取镜像文件
 
@@ -124,7 +124,7 @@ docker restart :重启容器
 
 　　　　docker image lsOPTION:列出所有本地镜像
 
-###  2.3.7进入容器内部：
+### 2.3.7进入容器内部：
 docker exec  [OPTION]   CONTAINER COMMAND [ARGS] ,常用的参数 -i,-t(含义同上)-d表示运行模式为background，如生成一个kafka的bash指令为
 
      docker exec -it kafka  /bin/bash       //进入一个容器的bash环境，可以进行查看和配置修改
