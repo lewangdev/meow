@@ -1,6 +1,6 @@
 #                           docker-quick-start
 
-#   1.docker简单介绍
+#    1.docker简单介绍
 ##    1.1 docker是什么:
    Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个移植的容器中，然后发布到任何流行的Linux机器上，也可以实现虚拟化。**容器是完全使用沙箱机制，相互之间不会有任何接口。**
 ##    1.2 docker的部件
@@ -11,13 +11,11 @@ Docker 仓库用来保存镜像，可以理解为代码控制中的代码仓库�
 ###    1.2.3 Docker 容器：
 Docker 容器和文件夹很类似，一个Docker容器包含了所有的某个应用运行所需要的环境。每一个 Docker 容器都是从 Docker 镜像创建的。Docker 容器可以运行、开始、停止、移动和删除。每一个 Docker 容器都是独立和安全的应用平台，Docker 容器是 Docker 的运行部分。
 ##   1.3 docker 与虚拟机的区别:
-   　
-   　
-   　
-    
 传统虚拟机技术是虚拟出一套硬件后，在其上运行一个完整操作系统，在该系统上再运行所需应用进程；而容器内的应用进程直接运行于宿主的内核，容器内没有自己的内核，而且也没有进行硬件虚拟。因此容器要比传统虚拟机更为轻便因而存在安全问题。
 
-## 2．Docker基本操作指令(万能的docker --help)
+
+
+# 2．Docker基本操作指令(万能的docker --help)
 ## 2.1 安装docker
 
 ### 2.1.1 centos7 安装docker
@@ -66,7 +64,7 @@ docker build 命令用于使用 Dockerfile 创建镜像，语法为 docker buil
     EXPOSE 3306
     # 容器启动后执行以下命令，启动mysql；
     CMD ["/usr/bin/mysqld_safe"]
-以上是mysql5.7的dockerfile的最简化可以应用版本。完整的版本见上方连接。然后dockerfile创建完成以后，就可以通过docker build 指令来创建本地mysql镜像,指令如下：
+ 以上是mysql5.7的dockerfile的最简化可以应用版本。完整的版本见上方连接。然后dockerfile创建完成以后，就可以通过docker build 指令来创建本地mysql镜像,指令如下：
     
     docker  build  -f   dockerfile    -t   test/mysql:5.7 //创建镜像
     
@@ -74,9 +72,8 @@ docker build 命令用于使用 Dockerfile 创建镜像，语法为 docker buil
 
 然后进入容器内部就可以查看数据库进行相关操作
 
-	
 
-###　2.3.2 docker images :
+###  　2.3.2 docker images :
 查看本地的所有镜像。完整的语法为docker images [OPTIONS]  常用的参数 –q 只显示镜像id，-f 筛选镜像显示。
 
 ### 2.3.3 docker rmi :
@@ -114,15 +111,15 @@ docker restart :重启容器
 
 ### 2.3.6 docker image *
 
-　　　　docker image pull [OPTIONS ] NAME[:TAG]：从仓库拉取镜像文件
+docker image pull [OPTIONS ] NAME[:TAG]：从仓库拉取镜像文件
 
-　　　　docker image save[OPTION ] IMAGE [image]:将镜像保存，默认是到标准输出设备，-o 写入文件中去
+docker image save[OPTION ] IMAGE [image]:将镜像保存，默认是到标准输出设备，-o 写入文件中去
 
-　　　　docker image push  [OPTION]  IMAGE[:TAGE]:将一个镜像推送到仓库
+docker image push  [OPTION]  IMAGE[:TAGE]:将一个镜像推送到仓库
 
-　　　　docker image tag SOURCE_IMAGE[:TAGE]  TARGET_IMAGE[:TAG]:创建一个TARGET_IMAGE指向SOURCE_IMAGE
+docker image tag SOURCE_IMAGE[:TAGE]  TARGET_IMAGE[:TAG]:创建一个TARGET_IMAGE指向SOURCE_IMAGE
 
-　　　　docker image lsOPTION:列出所有本地镜像
+docker image ls[OPTION]:列出所有本地镜像
 
 ### 2.3.7进入容器内部：
 docker exec  [OPTION]   CONTAINER COMMAND [ARGS] ,常用的参数 -i,-t(含义同上)-d表示运行模式为background，如生成一个kafka的bash指令为
