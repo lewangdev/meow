@@ -1,0 +1,62 @@
+[
+  {
+    "name": "优先级:低",
+    "color": "e99695"
+  },
+  {
+    "name": "优先级:紧急",
+    "color": "e99695"
+  },
+  {
+    "name": "优先级:高",
+    "color": "e99695"
+  },
+  {
+    "name": "分类:BUG",
+    "color": "d4c5f9"
+  },
+  {
+    "name": "分类:功能增强",
+    "color": "d4c5f9"
+  },
+  {
+    "name": "分类:功能完善",
+    "color": "d4c5f9"
+  },
+  {
+    "name": "分类:文档修改",
+    "color": "d4c5f9"
+  },
+  {
+    "name": "分类:新功能",
+    "color": "d4c5f9"
+  },
+  {
+    "name": "项目:已上线",
+    "color": "c5def5"
+  },
+  {
+    "name": "项目:已排期",
+    "color": "c5def5"
+  },
+  {
+    "name": "项目:已确认",
+    "color": "c5def5"
+  },
+  {
+    "name": "项目:延后",
+    "color": "c5def5"
+  },
+  {
+    "name": "项目:开发中",
+    "color": "c5def5"
+  },
+  {
+    "name": "项目:待讨论",
+    "color": "c5def5"
+  },
+  {
+    "name": "项目:测试中",
+    "color": "c5def5"
+  }
+]
