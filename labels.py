@@ -41,14 +41,13 @@ if __name__ == '__main__':
                     -H "Accept: application/vnd.github.symmetra-preview+json" \
                     https://api.github.com/repos/{2}/{3}/labels > labels.json'.format(user, passwd, owner, repo)
             print(cmd)
-            #os.system(cmd)
+            os.system(cmd)
             break
         elif 'delete' == action:
             cmd = 'curl -u {0}:{1} \
                     -H "Accept: application/vnd.github.symmetra-preview+json" \
-                    -d \'{4}\' \
                     -X DELETE\
-                    https://api.github.com/repos/{2}/{3}/labels/{5}'.format(user, passwd, owner, repo, data, quote(label['name']))
+                    https://api.github.com/repos/{2}/{3}/labels/{4}'.format(user, passwd, owner, repo, quote(label['name']))
 
         if cmd is not None:
            print(cmd)
