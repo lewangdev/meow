@@ -1,62 +1,137 @@
 [
   {
+    "id": 1116609890,
+    "node_id": "MDU6TGFiZWwxMTE2NjA5ODkw",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E4%BC%98%E5%85%88%E7%BA%A7:%E4%BD%8E",
     "name": "优先级:低",
-    "color": "e99695"
+    "color": "e99695",
+    "default": false,
+    "description": "低优先级"
   },
   {
+    "id": 1116629925,
+    "node_id": "MDU6TGFiZWwxMTE2NjI5OTI1",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E4%BC%98%E5%85%88%E7%BA%A7:%E7%B4%A7%E6%80%A5",
     "name": "优先级:紧急",
-    "color": "e99695"
+    "color": "e99695",
+    "default": false,
+    "description": "需要立即处理"
   },
   {
+    "id": 1116630269,
+    "node_id": "MDU6TGFiZWwxMTE2NjMwMjY5",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E4%BC%98%E5%85%88%E7%BA%A7:%E9%AB%98",
     "name": "优先级:高",
-    "color": "e99695"
+    "color": "e99695",
+    "default": false,
+    "description": "优先处理"
   },
   {
+    "id": 1092512834,
+    "node_id": "MDU6TGFiZWwxMDkyNTEyODM0",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E5%88%86%E7%B1%BB:BUG",
     "name": "分类:BUG",
-    "color": "d4c5f9"
+    "color": "d4c5f9",
+    "default": false,
+    "description": "发现的BUG"
   },
   {
+    "id": 1116637310,
+    "node_id": "MDU6TGFiZWwxMTE2NjM3MzEw",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E5%88%86%E7%B1%BB:%E5%8A%9F%E8%83%BD%E5%A2%9E%E5%BC%BA",
     "name": "分类:功能增强",
-    "color": "d4c5f9"
+    "color": "d4c5f9",
+    "default": false,
+    "description": "增强已有的功能，属于优化的环节"
   },
   {
+    "id": 1116665564,
+    "node_id": "MDU6TGFiZWwxMTE2NjY1NTY0",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E5%88%86%E7%B1%BB:%E5%8A%9F%E8%83%BD%E5%AE%8C%E5%96%84",
     "name": "分类:功能完善",
-    "color": "d4c5f9"
+    "color": "d4c5f9",
+    "default": false,
+    "description": "完善功能"
   },
   {
+    "id": 1116667482,
+    "node_id": "MDU6TGFiZWwxMTE2NjY3NDgy",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E5%88%86%E7%B1%BB:%E6%96%87%E6%A1%A3%E4%BF%AE%E6%94%B9",
     "name": "分类:文档修改",
-    "color": "d4c5f9"
+    "color": "d4c5f9",
+    "default": false,
+    "description": "只是做文档修改"
   },
   {
+    "id": 1116641541,
+    "node_id": "MDU6TGFiZWwxMTE2NjQxNTQx",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E5%88%86%E7%B1%BB:%E6%96%B0%E5%8A%9F%E8%83%BD",
     "name": "分类:新功能",
-    "color": "d4c5f9"
+    "color": "d4c5f9",
+    "default": false,
+    "description": "新的功能和需求"
   },
   {
+    "id": 1116669052,
+    "node_id": "MDU6TGFiZWwxMTE2NjY5MDUy",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E9%A1%B9%E7%9B%AE:%E5%B7%B2%E4%B8%8A%E7%BA%BF",
     "name": "项目:已上线",
-    "color": "c5def5"
+    "color": "c5def5",
+    "default": false,
+    "description": "已发布上线"
   },
   {
+    "id": 1116632142,
+    "node_id": "MDU6TGFiZWwxMTE2NjMyMTQy",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E9%A1%B9%E7%9B%AE:%E5%B7%B2%E6%8E%92%E6%9C%9F",
     "name": "项目:已排期",
-    "color": "c5def5"
+    "color": "c5def5",
+    "default": false,
+    "description": "已经安排了开发时间milestone"
   },
   {
+    "id": 1116682002,
+    "node_id": "MDU6TGFiZWwxMTE2NjgyMDAy",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E9%A1%B9%E7%9B%AE:%E5%B7%B2%E7%A1%AE%E8%AE%A4",
     "name": "项目:已确认",
-    "color": "c5def5"
+    "color": "c5def5",
+    "default": false,
+    "description": "功能已经确认，后续进行排期"
   },
   {
+    "id": 1116633195,
+    "node_id": "MDU6TGFiZWwxMTE2NjMzMTk1",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E9%A1%B9%E7%9B%AE:%E5%BB%B6%E5%90%8E",
     "name": "项目:延后",
-    "color": "c5def5"
+    "color": "c5def5",
+    "default": false,
+    "description": "功能无法确定是否开发，延期处理"
   },
   {
+    "id": 1116632500,
+    "node_id": "MDU6TGFiZWwxMTE2NjMyNTAw",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E9%A1%B9%E7%9B%AE:%E5%BC%80%E5%8F%91%E4%B8%AD",
     "name": "项目:开发中",
-    "color": "c5def5"
+    "color": "c5def5",
+    "default": false,
+    "description": "功能正在开发"
   },
   {
+    "id": 1116669498,
+    "node_id": "MDU6TGFiZWwxMTE2NjY5NDk4",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E9%A1%B9%E7%9B%AE:%E5%BE%85%E8%AE%A8%E8%AE%BA",
     "name": "项目:待讨论",
-    "color": "c5def5"
+    "color": "c5def5",
+    "default": false,
+    "description": "需求已经提出，但是需要讨论是否需要开发"
   },
   {
+    "id": 1116632704,
+    "node_id": "MDU6TGFiZWwxMTE2NjMyNzA0",
+    "url": "https://api.github.com/repos/thisiswangle/pivaiot-davinci/labels/%E9%A1%B9%E7%9B%AE:%E6%B5%8B%E8%AF%95%E4%B8%AD",
     "name": "项目:测试中",
-    "color": "c5def5"
+    "color": "c5def5",
+    "default": false,
+    "description": "功能已经完成开发，正在测试"
   }
 ]
