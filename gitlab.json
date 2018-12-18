@@ -1,0 +1,17 @@
+[
+  {"title": "优先级:低", "color": "#E99695", "description": "低优先级"},
+  {"title": "优先级:紧急", "color": "#E99695", "description": "需要立即处理"},
+  {"title": "优先级:高", "color": "#E99695", "description": "优先处理"},
+  {"title": "分类:BUG", "color": "#D4C5F9", "description": "发现的BUG"},
+  {"title": "分类:功能增强", "color": "#D4C5F9", "description": "增强已有的功能，属于优化的环节"},
+  {"title": "分类:功能完善", "color": "#D4C5F9", "description": "完善功能"},
+  {"title": "分类:文档修改", "color": "#D4C5F9", "description": "只是做文档修改"},
+  {"title": "分类:新功能", "color": "#D4C5F9", "description": "新的功能和需求"},
+  {"title": "项目:已上线", "color": "#C5DEF5", "description": "已发布上线"},
+  {"title": "项目:已排期", "color": "#C5DEF5", "description": "已经安排了开发时间milestone"},
+  {"title": "项目:已确认", "color": "#C5DEF5", "description": "功能已经确认，后续进行排期"},
+  {"title": "项目:延后", "color": "#C5DEF5", "description": "功能无法确定是否开发，延期处理"},
+  {"title": "项目:开发中", "color": "#C5DEF5", "description": "功能正在开发"},
+  {"title": "项目:待讨论", "color": "#C5DEF5", "description": "需求已经提出，但是需要讨论是否需要开发"},
+  {"title": "项目:测试中", "color": "#C5DEF5", "description": "功能已经完成开发，正在测试"}
+]

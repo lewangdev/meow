@@ -18,7 +18,7 @@ if __name__ == '__main__':
     action = sys.argv[5]
 
     labels = None
-    with open('labels.json', 'r') as f:
+    with open('github.json', 'r') as f:
         labels = map(lambda l: dict(name=l['name'], color=l['color'], description=l['description']), json.loads(f.read()))
 
     for label in labels:
@@ -39,7 +39,7 @@ if __name__ == '__main__':
         elif 'get' == action:
             cmd = 'curl -u {0}:{1} \
                     -H "Accept: application/vnd.github.symmetra-preview+json" \
-                    https://api.github.com/repos/{2}/{3}/labels > labels.json'.format(user, passwd, owner, repo)
+                    https://api.github.com/repos/{2}/{3}/labels > github.json'.format(user, passwd, owner, repo)
             print(cmd)
             os.system(cmd)
             break
