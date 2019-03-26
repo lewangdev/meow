@@ -1,8 +1,12 @@
+# Meow
+
+[![Contributors](https://img.shields.io/github/contributors/thisiswangle/meow.svg)](https://github.com/thisiswangle/meow/graphs/contributors)
+
 <p align="center">
 <img src="MeowLogo.png" />
 </p>
 
-# Meow - 面向新手的 Git/GitHub/GitLab 团队协作修炼场所
+> 面向新手的 Git/GitHub/GitLab 团队协作修炼场所
 
 ## 目标
 
