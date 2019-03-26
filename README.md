@@ -6,7 +6,11 @@
 
 ## 目标
 
-项目为使用 Git/GitHub/GitLab 协作的团队中的新手成员提供一份参考指南和训练场所。 项目本身很简单，不要求参与的人贡献代码，不需要编程技能，任何想熟悉 Git/GitHub/Gitlab 的人都可以参加。通过这个项目可以学习到 Git 从克隆项目(fork/clone), 创建分支(branch)，提交和同步修改(pull/push)，到发起合并请求(PR)的流程; 同时还可以学会使用 GitHub/GitLab 进行项目协作开发管理。
+* 为使用 Git/GitHub/GitLab 协作的团队中的新手成员提供一份参考指南和训练场所。
+* 项目本身很简单，不要求参与的人贡献代码，不需要编程技能，任何想熟悉 Git/GitHub/Gitlab 的人都可以参加。
+* 通过这个项目可以学会:
+    * Git 从克隆项目(fork/clone), 创建分支(branch)，提交和同步修改(pull/push)，到发起合并请求(PR)的流程;
+    * 使用 GitHub/GitLab 进行项目协作开发管理。
 
 ## 分支说明
 
