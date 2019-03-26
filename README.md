@@ -16,7 +16,7 @@
 
 ## Meow
 
-这是一个面向新手的 Git/GitHub/GitLab 团队协作修炼场所，玩一次即可熟悉 Git/GitLab/GitHub 的使用。不过在开启学习之前，请至少准备好撸猫皂片一张，没有猫的，可以去 [unsplash](https://unsplash.com/search/photos/cat) 使用关键词 `cat` 或者 `kitten` 搜索，一定会找到盟到你的猫咪照，meow~
+这是一个面向新手的 Git/GitHub/GitLab 团队协作修炼场所，玩一次即可熟悉 Git/GitLab/GitHub 的使用。不过在开启学习之前，请至少准备好撸猫皂片一张，没有猫的，可以去 [unsplash](https://unsplash.com/search/photos/cat) 使用关键词 `cat` 或者 `kitten` 搜索，一定会找到萌到你的猫咪照，meow~
 
 ### 目标
 
@@ -66,7 +66,7 @@
 
 #### 项目发布
 
-每周二和周五发布, 版本号为 `yyyyMMdd`
+每周二和周四发布, 版本号为发布日的日期，格式为 `yyyyMMdd`
 
 ### 参与项目
 
