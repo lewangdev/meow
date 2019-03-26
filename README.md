@@ -2,7 +2,7 @@
 <img src="MeowLogo.png" />
 </p>
 
-# Meow~喵~是一个面向新手的 Git/GitHub/GitLab 团队协作修炼场所
+# Meow - 面向新手的 Git/GitHub/GitLab 团队协作修炼场所
 
 ## 目标
 
