@@ -94,6 +94,9 @@
 
 ### 参考资料
 
+* [Learn Git Branching](https://learngitbranching.js.org/)
+* [Git Doc](https://git-scm.com/doc)
 * [AMP](https://github.com/ampproject/amphtml/labels)
 * [MIP](https://github.com/mipengine/mip/labels)
 * [Dress](https://github.com/komeiji-satori/Dress)
+
