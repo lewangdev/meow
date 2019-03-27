@@ -14,7 +14,7 @@
     </a>
 </p>
 
-## Meow
+# Meow
 
 这是一个面向新手的 Git/GitHub/GitLab 团队协作修炼场所，玩一次即可熟悉 Git/GitLab/GitHub 的使用。不过在开启学习之前，请至少准备好撸猫皂片一张，没有猫的，可以去 [unsplash](https://unsplash.com/search/photos/cat) 使用关键词 `cat` 或者 `kitten` 搜索，一定会找到萌到你的猫咪照，meow~
 
@@ -83,13 +83,14 @@
     * 将猫照放在这个目录下面, 照片尽量压缩，Size 不要太大，清晰度不要太低
 2. 使用 Git 分支规范完成任务
 3. 在 PR 被合并之后，关闭 issue
+4. 请仔细阅读 [CONTRIBUTING]
+
+### License
+
+本项目采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可。
 
 ### 参考资料
 
 * [AMP](https://github.com/ampproject/amphtml/labels)
 * [MIP](https://github.com/mipengine/mip/labels)
 * [Dress](https://github.com/komeiji-satori/Dress)
-
-### License
-
-本项目采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可。
