@@ -83,7 +83,7 @@
     * 将猫照放在这个目录下面, 照片尽量压缩，Size 不要太大，清晰度不要太低
 2. 使用 Git 分支规范完成任务
 3. 在 PR 被合并之后，关闭 issue
-4. 请仔细阅读 [CONTRIBUTING]
+4. 请仔细阅读 [CONTRIBUTING](CONTRIBUTING.md)
 
 ### License
 
