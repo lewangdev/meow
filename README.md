@@ -16,7 +16,7 @@
 
 # Meow
 
-* 这是一个面向新手的 Git/GitHub/GitLab 团队协作修炼场所，玩一次即可熟悉 Git/GitLab/GitHub 上团队协作开发实战的流程，
+* 这是一个面向新手的 Git/GitHub/GitLab 团队协作修炼场所，玩一次即可熟悉 Git/GitLab/GitHub 上团队协作开发实战的流程
 * 为了简化学习过程，提高学习乐趣，在开启学习之前，请至少准备猫咪皂片一张，没有猫的，可以去 [unsplash](https://unsplash.com/search/photos/cat) 使用关键词 `cat` 或者 `kitten` 搜索，一定会找到萌到你的猫咪照，meow~
 
 ### 目标
