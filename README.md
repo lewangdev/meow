@@ -16,11 +16,12 @@
 
 # Meow
 
-这是一个面向新手的 Git/GitHub/GitLab 团队协作修炼场所，玩一次即可熟悉 Git/GitLab/GitHub 的使用。不过在开启学习之前，请至少准备好撸猫皂片一张，没有猫的，可以去 [unsplash](https://unsplash.com/search/photos/cat) 使用关键词 `cat` 或者 `kitten` 搜索，一定会找到萌到你的猫咪照，meow~
+* 这是一个面向新手的 Git/GitHub/GitLab 团队协作修炼场所，玩一次即可熟悉 Git/GitLab/GitHub 上团队协作开发实战的流程，
+* 为了简化学习过程，提高学习乐趣，在开启学习之前，请至少准备猫咪皂片一张，没有猫的，可以去 [unsplash](https://unsplash.com/search/photos/cat) 使用关键词 `cat` 或者 `kitten` 搜索，一定会找到萌到你的猫咪照，meow~
 
 ### 目标
 
-* 为使用 Git/GitHub/GitLab 协作的团队中的新手成员提供一份参考指南和训练场所。
+* 为使用 Git/GitHub/GitLab 协作开发的团队中的新手成员提供一份参考指南和训练场所。
 * 项目本身很简单，不要求参与的人贡献代码，不需要编程技能，任何想熟悉 Git/GitHub/Gitlab 的人都可以参加。
 * 通过这个项目可以学会:
     * Git 从克隆项目(fork/clone)，创建分支(branch)，提交和同步修改(pull/push)，到发起合并请求(PR)的流程;
